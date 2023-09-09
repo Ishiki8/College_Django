@@ -1,0 +1,38 @@
+header h1 a {
+    color: red;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: "Comic Sans MS", sans-serif;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+header h1 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.post-entry h2 {
+    color: cornflowerblue;
+    margin-left: 10px;
+
+}
+
+.post-entry h2 a {
+    color: inherit;
+}
+
+.post-entry p {
+    color: dimgray;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
