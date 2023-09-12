@@ -20,6 +20,15 @@ a {
     text-decoration: none;
 }
 
+.add__post {
+    color: purple;
+    margin-left: 10px;
+}
+
+.submit__new__post, .text__h1 {
+    margin-left: 10px;
+}
+
 .post-entry h2 {
     color: cornflowerblue;
     margin-left: 10px;
