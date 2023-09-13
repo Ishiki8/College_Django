@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>New post</title>
+    <title>Создание поста</title>
 </head>
 <body>
   {% extends 'base.html' %}
   {% block content %}
-    <h1 class="text__h1">New post</h1>
+    <h1 class="text__h1">Создание поста</h1>
     <form action="" method="post" class="submit__new__post">
       {% csrf_token %}
       {{ form.as_p }}
-      <input type="submit" value="Save">
+      <input type="submit" value="Добавить">
     </form>
   {% endblock %}
 </body>
